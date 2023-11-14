@@ -1,53 +1,52 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Operações báiscas
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// DescriÃ§Ã£o   : OperaÃ§Ãµes bÃ¡sicas
 // Autor(a)    : Alejandro Ribeiro Prieto
 // Data atual  : 12/10/2023
 Var
-// Seção de Declarações das variáveis 
-// A, B: números digitados pelo usuário
-// s: soma, Sb: subtração, M: multiplicação, D: divisão, Md: média
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
+// A, B: nÃºmeros digitados pelo usuÃ¡rio
+// s: soma, Sb: subtraÃ§Ã£o, M: multiplicaÃ§Ã£o, D: divisÃ£o, Md: mÃ©dia
 A, B, S, Sb, M: inteiro
 D, MD: Real
 Inicio
-Escreval ("Soma entre dois números")
-Escreva ("Digite o primeiro número: ")
+Escreval ("Soma entre dois nÃºmeros")
+Escreva ("Digite o primeiro nÃºmero: ")
 Leia (A)
-Escreva ("Digite o segundo número: ")
+Escreva ("Digite o segundo nÃºmero: ")
 Leia (B)
 S <- A+B
 Escreval ("Resultado da soma: ", S)
 
-Escreval ("Subtração entre dois números")
-Escreva ("Digite o primeiro número: ")
+Escreval ("SubtraÃ§Ã£o entre dois nÃºmeros")
+Escreva ("Digite o primeiro nÃºmero: ")
 Leia (A)
-Escreva ("Digite o segundo número: ")
+Escreva ("Digite o segundo nÃºmero: ")
 Leia (B)
 Sb <- A-B
-Escreval ("Resultado da subtração: ", Sb)
+Escreval ("Resultado da subtraÃ§Ã£o: ", Sb)
 
-Escreval ("Multiplicação entre dois números")
-Escreva ("Digite o primeiro número: ")
+Escreval ("MultiplicaÃ§Ã£o entre dois nÃºmeros")
+Escreva ("Digite o primeiro nÃºmero: ")
 Leia (A)
-Escreva ("Digite o segundo número: ")
+Escreva ("Digite o segundo nÃºmero: ")
 Leia (B)
 M <- A*B
-Escreval ("Resultado da multiplicação: ", M)
+Escreval ("Resultado da multiplicaÃ§Ã£o: ", M)
 
-Escreval ("Divisão entre dois números")
-Escreva ("Digite o primeiro número: ")
+Escreval ("DivisÃ£o entre dois nÃºmeros")
+Escreva ("Digite o primeiro nÃºmero: ")
 Leia (A)
-Escreva ("Digite o segundo número: ")
+Escreva ("Digite o segundo nÃºmero: ")
 Leia (B)
 D <- A/B
-Escreval ("Resultado da divisão: ", D)
+Escreval ("Resultado da divisÃ£o: ", D)
 
-Escreval ("Média entre dois números")
-Escreva ("Digite o primeiro número: ")
+Escreval ("MÃ©dia entre dois nÃºmeros")
+Escreva ("Digite o primeiro nÃºmero: ")
 Leia (A)
-Escreva ("Digite o segundo número: ")
+Escreva ("Digite o segundo nÃºmero: ")
 Leia (B)
 Md <- (A + B)/2
-Escreva ("Resultado da média: ", Md)
+Escreva ("Resultado da mÃ©dia: ", Md)
 fimalgoritmo
